@@ -49,12 +49,17 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Todoey" id="gkh-1x-AfT">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="2pK-WE-Jmj"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="2pK-WE-Jmj">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addBtnPressed:" destination="79N-dS-4PC" id="Wnv-Md-bL8"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LRN-jR-xSZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1662" y="134"/>
+            <point key="canvasLocation" x="1673" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Tuf-VR-yzj">
@@ -64,6 +69,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7uL-M3-xcQ">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
